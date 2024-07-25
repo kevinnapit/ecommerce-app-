@@ -76,7 +76,7 @@ class _ShopPageState extends State<ShopPage> {
                   name: 'Nike',
                   price: '240k',
                   description: 'coll shoe',
-                  imagePath: 'lib/images/Nike Black.jpeg');
+                  imagePath: 'lib/images/NikeBlack.jpeg');
               return ShoeTile(shoe: shoe);
             },
           ),
