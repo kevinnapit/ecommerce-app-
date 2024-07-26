@@ -37,7 +37,7 @@ class IntroPage extends StatelessWidget {
                 const SizedBox(height: 24),
                 //sub title
                 const Text(
-                  'Brand new sneakers and custom kicks made with premium quality',
+                  'Sneakers Dengan brand baru menunggu mu..',
                   style: TextStyle(fontSize: 16, color: Colors.grey),
                   textAlign: TextAlign.center,
                 ),
@@ -48,8 +48,7 @@ class IntroPage extends StatelessWidget {
                       context,
                       MaterialPageRoute(
                         builder: (context) => const HomePage(),
-                      )
-                    ),
+                      )),
                   child: Container(
                     decoration: BoxDecoration(
                       color: Colors.grey[900],
